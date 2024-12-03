@@ -1,0 +1,16 @@
+# train: ../train/images
+# val: ../valid/images
+# test: ../test/images
+
+train: C:\Users\nguye\OneDrive\Desktop\2024\Fall 24\Senior Project\SeniorProject_HumanCounter\YOLO\dataset\train\images
+val: C:\Users\nguye\OneDrive\Desktop\2024\Fall 24\Senior Project\SeniorProject_HumanCounter\YOLO\dataset\valid\images
+test: C:\Users\nguye\OneDrive\Desktop\2024\Fall 24\Senior Project\SeniorProject_HumanCounter\YOLO\dataset\test\images
+nc: 1
+names: ['person']
+
+roboflow:
+  workspace: leo-ueno
+  project: people-detection-o4rdr
+  version: 8
+  license: Private
+  url: https://universe.roboflow.com/leo-ueno/people-detection-o4rdr/dataset/8
